@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  background: red;
+  }
+.vert{
+  background-color:#7bd9bf;
+}
+.oragne{
+  background-color: #f2a682;
+}
+.gris{
+  background-color: #f2a682;
+}
+.gris_fonce{
+  background-color:#f2a682;
+}
+.cointainer{
+  width: 100%
+}
+
+.img{
+  background-color: pink;
+}
+
+.red{
+
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.titleBlock{
+  height: 50px;
+}
