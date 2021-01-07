@@ -1,0 +1,52 @@
+/**
+ * COLOR
+**/
+.orange {
+	background-color: orange;
+}
+.orange-text {
+	color: orange;
+}
+
+/**
+ * TEXT HELPER
+**/
+.justify {
+	text-align: justify;
+}
+
+.center {
+	text-align: center;
+}
+
+
+/**
+ * RESPONSIVE HIDDEN MODE
+**/
+.hide-on-mobile {
+	display: block;
+}
+.hide-on-tablet {
+	display: block;
+}
+.hide-on-desktop {
+	display: none;
+}
+/** Media on tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.hide-on-tablet {
+		display: none;
+	}
+	.hide-on-desktop {
+		display: block;
+	}
+}
+/** Media on mobile */
+@media screen and (max-width: 767px) {
+	.hide-on-mobile {
+		display: none;
+	}
+	.hide-on-desktop {
+		display: block;
+	}
+}

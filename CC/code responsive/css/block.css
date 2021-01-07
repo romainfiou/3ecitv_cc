@@ -1,0 +1,35 @@
+/**
+ * BLOCKS
+**/
+.blocks {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blocks .block.b4 {
+	margin: 2.5%;
+	width: 20%;
+	height: 200px;
+	background-color: green; 
+}
+/** Media on tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.blocks .block.b4 {
+		margin: 2.5%;
+		width: 45%;
+	}
+}
+
+.blocks .block.b3 {
+	margin: 1.6666%;
+	width: 30%;
+	height: 200px;
+	background-color: orange; 
+}
+/** Media on mobile */
+@media screen and (max-width: 767px) {
+	.blocks .block.b4, .blocks .block.b3 {
+		margin: 2.5%;
+		width: 95%;
+	}
+}
